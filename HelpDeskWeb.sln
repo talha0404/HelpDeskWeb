@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDeskWeb", "HelpDeskWeb\HelpDeskWeb.csproj", "{3941E702-0052-4896-A994-4AEFA0D423CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDeskWeb.Api", "HelpDeskWeb.Api\HelpDeskWeb.Api.csproj", "{5F112E36-D39A-415A-959F-5EB7E76BFB6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDeskWeb.Domain", "HelpDeskWeb.Domain\HelpDeskWeb.Domain.csproj", "{A2661D11-1E5E-4714-8781-32A69C6D16D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDeskWeb.EFCore", "HelpDeskWeb.EFCore\HelpDeskWeb.EFCore.csproj", "{FC2EFBD5-239A-4ACC-9918-5A110C1FC3D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDeskWeb.Services", "HelpDeskWeb.Services\HelpDeskWeb.Services.csproj", "{60EC9190-7183-4480-93A7-AEE700577312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDeskWeb.Helpers", "HelpDeskWeb.Helpers\HelpDeskWeb.Helpers.csproj", "{9EAF19CA-4CEC-4E06-B7C8-DBBD3FCA4BE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDeskWeb.DTO", "HelpDeskWeb.DTO\HelpDeskWeb.DTO.csproj", "{75F804FE-8EED-4C05-8F71-BE5686C5CFED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3941E702-0052-4896-A994-4AEFA0D423CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3941E702-0052-4896-A994-4AEFA0D423CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3941E702-0052-4896-A994-4AEFA0D423CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3941E702-0052-4896-A994-4AEFA0D423CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F112E36-D39A-415A-959F-5EB7E76BFB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F112E36-D39A-415A-959F-5EB7E76BFB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F112E36-D39A-415A-959F-5EB7E76BFB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F112E36-D39A-415A-959F-5EB7E76BFB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2661D11-1E5E-4714-8781-32A69C6D16D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2661D11-1E5E-4714-8781-32A69C6D16D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2661D11-1E5E-4714-8781-32A69C6D16D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2661D11-1E5E-4714-8781-32A69C6D16D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2EFBD5-239A-4ACC-9918-5A110C1FC3D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2EFBD5-239A-4ACC-9918-5A110C1FC3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2EFBD5-239A-4ACC-9918-5A110C1FC3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2EFBD5-239A-4ACC-9918-5A110C1FC3D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60EC9190-7183-4480-93A7-AEE700577312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60EC9190-7183-4480-93A7-AEE700577312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60EC9190-7183-4480-93A7-AEE700577312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60EC9190-7183-4480-93A7-AEE700577312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EAF19CA-4CEC-4E06-B7C8-DBBD3FCA4BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EAF19CA-4CEC-4E06-B7C8-DBBD3FCA4BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EAF19CA-4CEC-4E06-B7C8-DBBD3FCA4BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EAF19CA-4CEC-4E06-B7C8-DBBD3FCA4BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F804FE-8EED-4C05-8F71-BE5686C5CFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F804FE-8EED-4C05-8F71-BE5686C5CFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F804FE-8EED-4C05-8F71-BE5686C5CFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F804FE-8EED-4C05-8F71-BE5686C5CFED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CF590D4-3D49-45E2-8687-23C313897805}
+	EndGlobalSection
+EndGlobal

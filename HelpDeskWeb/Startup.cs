@@ -1,4 +1,12 @@
 using HelpDeskWeb.EFCore;
+using HelpDeskWeb.Services.Services.CategoryService;
+using HelpDeskWeb.Services.Services.FirmService;
+using HelpDeskWeb.Services.Services.PriorityService;
+using HelpDeskWeb.Services.Services.StatusService;
+using HelpDeskWeb.Services.Services.TicketHistoryService;
+using HelpDeskWeb.Services.Services.TicketService;
+using HelpDeskWeb.Services.Services.TicketTypeService;
+using HelpDeskWeb.Services.Services.UsersService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +35,17 @@ namespace HelpDeskWeb
         {
             services.AddRazorPages();
             services.AddDbContext<HelpDeskWebDbContext>(item => item.UseSqlServer(Configuration.GetConnectionString("MyConnection")));
+
+            #region Dependency Injection
+            services.AddTransient<ICategoryServices, CategoryServices>(); 
+            services.AddTransient<IFirmServices, FirmServices>(); 
+            services.AddTransient<IPriorityServices, PriorityServices>(); 
+            services.AddTransient<IStatusServices, StatusServices>(); 
+            services.AddTransient<ITicketHistoryServices, TicketHistoryServices>(); 
+            services.AddTransient<ITicketServices, TicketServices>(); 
+            services.AddTransient<IUsersServices, UsersServices>(); 
+            services.AddTransient<ITicketTypeServices, TicketTypeServices>();
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

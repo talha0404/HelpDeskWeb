@@ -7,6 +7,19 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HelpDeskWeb.EFCore\HelpDeskWeb.EFCore.csproj" />
   </ItemGroup>
 
 </Project>

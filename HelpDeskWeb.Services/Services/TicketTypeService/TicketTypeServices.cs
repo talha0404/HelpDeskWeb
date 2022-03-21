@@ -8,7 +8,7 @@ using HelpDeskWeb.Services.BaseServices;
 
 namespace HelpDeskWeb.Services.Services.TicketTypeService
 {
-    public class TicketTypeServices : BaseService<TicketType>,ITicketTypeServices
+    public class TicketTypeServices : BaseService<TicketType>, ITicketTypeServices
     {
     }
 }

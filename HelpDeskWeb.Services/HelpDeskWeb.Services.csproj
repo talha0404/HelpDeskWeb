@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HelpDeskWeb.Domain\HelpDeskWeb.Domain.csproj" />
+    <ProjectReference Include="..\HelpDeskWeb.EFCore\HelpDeskWeb.EFCore.csproj" />
   </ItemGroup>
 
 </Project>
